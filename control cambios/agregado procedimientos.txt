@@ -1,0 +1,97 @@
+Procedimientos agregado: lo vemos en la tabla lcc_procedures_step1_GRID de AGRIDs
+
+---------------------------------------------------DATOS--------------------------------------------------------------------------------
+sp_MDD_Data_All_Test_FY1617_GRID
+sp_MDD_Data_All_Test_GRID
+
+sp_MDD_Data_DL_Performance_CE_FY1617_GRID
+sp_MDD_Data_DL_Performance_CE_GRID
+sp_MDD_Data_DL_Performance_CE_LTE_FY1617_GRID
+sp_MDD_Data_DL_Performance_CE_LTE_GRID
+sp_MDD_Data_DL_Performance_NC_FY1617_GRID
+sp_MDD_Data_DL_Performance_NC_GRID
+sp_MDD_Data_DL_Performance_NC_LTE_FY1617_GRID
+sp_MDD_Data_DL_Performance_NC_LTE_GRID
+
+sp_MDD_Data_DL_Technology_CE_GRID
+sp_MDD_Data_DL_Technology_CE_LTE_FY1617_GRID
+sp_MDD_Data_DL_Technology_CE_LTE_GRID
+sp_MDD_Data_DL_Technology_NC_GRID
+sp_MDD_Data_DL_Technology_NC_LTE_FY1617_GRID
+sp_MDD_Data_DL_Technology_NC_LTE_GRID
+
+sp_MDD_Data_DL_Thput_CE_GRID
+sp_MDD_Data_DL_Thput_CE_LTE_GRID
+sp_MDD_Data_DL_Thput_NC_GRID
+sp_MDD_Data_DL_Thput_NC_LTE_GRID
+
+sp_MDD_Data_UL_Performance_CE_FY1617_GRID
+sp_MDD_Data_UL_Performance_CE_GRID
+sp_MDD_Data_UL_Performance_CE_LTE_FY1617_GRID
+sp_MDD_Data_UL_Performance_CE_LTE_GRID
+sp_MDD_Data_UL_Performance_NC_FY1617_GRID
+sp_MDD_Data_UL_Performance_NC_GRID
+sp_MDD_Data_UL_Performance_NC_LTE_FY1617_GRID
+sp_MDD_Data_UL_Performance_NC_LTE_GRID
+
+sp_MDD_Data_UL_Technology_CE_GRID
+sp_MDD_Data_UL_Technology_CE_LTE_FY1617_GRID
+sp_MDD_Data_UL_Technology_CE_LTE_GRID
+sp_MDD_Data_UL_Technology_NC_GRID
+sp_MDD_Data_UL_Technology_NC_LTE_FY1617_GRID
+sp_MDD_Data_UL_Technology_NC_LTE_GRID
+
+sp_MDD_Data_UL_Thput_CE_GRID
+sp_MDD_Data_UL_Thput_CE_LTE_GRID
+sp_MDD_Data_UL_Thput_NC_GRID
+sp_MDD_Data_UL_Thput_NC_LTE_GRID
+
+sp_MDD_Data_NEW_KPIs_DL_LTE_GRID
+sp_MDD_Data_NEW_KPIs_UL_LTE_GRID
+
+sp_MCC_Data_UL_Performance_CE_FY1617_GRID
+sp_MCC_Data_UL_Performance_CE_LTE_FY1617_GRID
+sp_MCC_Data_UL_Performance_NC_FY1617_GRID
+sp_MCC_Data_UL_Performance_NC_LTE_FY1617_GRID
+
+sp_MCC_Data_UL_Technology_CE_FY1617_GRID
+sp_MCC_Data_UL_Technology_CE_LTE_FY1617_GRID
+sp_MCC_Data_UL_Technology_NC_FY1617_GRID
+sp_MCC_Data_UL_Technology_NC_LTE_FY1617_GRID
+
+sp_MDD_Data_NEw_KPIs_DL_LTE_GRID
+sp_MDD_Data_NEw_KPIs_UL_LTE_GRID
+
+sp_MDD_Data_Ping_GRID
+sp_MDD_Data_Web_FY1617_GRID
+sp_MDD_Data_Web_GRID
+sp_MDD_Data_Web_Kepler_GRID
+sp_MDD_Data_Web_Mobile_Kepler_GRID
+sp_MDD_Data_Web_Time_Kepler_GRID
+sp_MDD_Data_Web_Time_Mobile_Kepler_GRID
+sp_MDD_Data_Youtube_GRID
+sp_MDD_Data_Youtube_HD_GRID
+
+---------------------------------------------------VOZ--------------------------------------------------------------------------------
+
+sp_MDD_Voice_VOLTE_FY1617_GRID ->agregado Volte
+
+sp_MDD_Voice_NEW_KPIs_GRID -> calculo del CST y los nuevos de MOS y duraciones por tecnología
+sp_MDD_Voice_PESQ_GRID -> Directional AVG, Samples Percentage Histogram, AVG per Codec and Tech. Calculo MOS DL y UL. Desglosa los valores para el ponderado en pasos de 0.5.
+sp_MDD_Voice_Llamadas_FY1617_GRID -> numero de llamadas por parcela
+sp_MDD_Voice_CallSetupTime_AllCalls_GRID -> CST
+sp_MDD_Voice_CallSetupTime_CompletedCalls_GRID
+sp_MDD_Voice_mallado_GRID-> cuenta los sessionid por parcela
+sp_MDD_Voice_Llamadas_GRID ->numero de llamadas por parcela (ya no se usa, entidades FY1516)
+sp_MDD_Voice_Causas_Bloqueos_Perdidas_GRID
+sp_MDD_Voice_Causas_Caidas_GRID
+sp_MDD_Voice_CSFB_GRID
+sp_MDD_Voice_EcIo_GRID
+sp_MDD_Voice_PESQ_Detailed_GRID-> calculo MOS, sin desglose. Disaggregated Samples Histogram. Desglosa los valores de mos en paso de 0.5 o 0.1, dependiendo del rango, para ponderarlo por parcelas en el agregado.
+sp_MDD_Voice_RxQual_GRID-> calculo RxQual por parcelas. Ponderado de la info de RxQual.
+
+---------------------------------------------------COBERTURA--------------------------------------------------------------------------------
+
+sp_MDD_Coverage_All_Curves
+sp_MDD_Coverage_All_Indoor
+
